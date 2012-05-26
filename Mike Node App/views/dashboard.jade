@@ -1,0 +1,57 @@
+!!! 5
+html
+	head 
+		title="AdvertEyes.me - Campaign Creation"
+	body(data-spy='scroll', data-target='.subnav', data-offset='50')
+		
+		//======================== Navbar =======================
+		.navbar.navbar-fixed-top
+			.navbar-inner
+				.container
+					a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+
+				a.brand(href='./index.html') AdvertEyes.me
+				.nav-collapse.collapse
+					ul.nav
+						li.active
+							a(href='./index.html') Home
+						li
+							a(href='./dashboard.html') Dashboard
+						li
+							a(href='./about.html') About
+						li
+							a(href='./contact.html') Contact
+
+		//======================== Title ========================
+		.container
+			header.jumbotron.subhead
+				h1 Dashboard
+				p.lead Keep track of your Campaign activity here.  
+
+
+			//======================= Overview =====================
+
+			.row#Overview
+				.span12
+					img(src='images/chart.png')
+
+			br
+			.row#Other
+				.span4
+					h2 Gender
+				.span4
+					h2 Ages
+				.span4
+					h2 Locations
+					<iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ie/maps?f=q&amp;aq=&amp;sll=53.13359,-8.305664&amp;sspn=7,14&amp;hnear=London&amp;z=10&amp;ll=51.508129,-0.128005&amp;output=embed"></iframe>
+
+			
+
+
+					
+
+		//footer
+		//p (C) Infatics 2012
